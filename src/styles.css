@@ -1,18 +1,27 @@
  {
 }
-h1 {
-  font-family: "Poppins", serif;
+body {
+     font-family: "Poppins", serif;
+     background-color: rgb(250, 249, 249);
+
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+header h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 90px;
-  line-height: 144px;
+  line-height: 1;
   color: rgb(61, 55, 55);
+  margin:30px 0;
 }
 
 header  {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-image: url("/images/bg-opera.png");
+
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+    url("/images/bg-opera.png");
     background-size: cover;
 background-position: center;
     background-repeat: no-repeat;
@@ -20,17 +29,49 @@ background-position: center;
     padding: 60px 0;
 }
 
-header button  {
-    padding:10px;
-    margin: auto;
+header a  {
+    padding:16px 32px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background-color: white;
+    text-decoration: none;
+    color:lightslategrey
 
 }
 
 header h2  {
-    font-family: "Poppins", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 60px;
-    color: black;
+    color:white;
+}
+header h3  {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color:white;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 900px){
+    header{
+        padding: 60px 0;
+}
+header h1{
+    font-size: 48px;
+}
+
+header h2{
+    font-size: 20px;
+}
+header h3 {
+    font-size: 15px;
+}
 }
