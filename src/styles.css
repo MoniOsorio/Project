@@ -8,3 +8,14 @@ h1 {
   line-height: 144px;
   color: rgb(61, 55, 55);
 }
+
+header  {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url("images/bg-opera.png");
+    background-size: cover;
+background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 60px 0;
+}
