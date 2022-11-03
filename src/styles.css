@@ -5,22 +5,37 @@ body {
      background-color: rgb(250, 249, 249);
 
 }
+main {
+    background-color: white;
+}
 .container {
     max-width: 1400px;
     margin: 0 auto;
 }
 
 
-
 .grid  {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+    gap: 64px;
+}
 
+.grid-2-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-3-columns-with-first-narrow  {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.first-section-img  {
+    max-width: 100%;
 }
 
 section  {
 max-width: 1200px;
 margin: 0 auto;
+padding: 100px 0;
 }
 
 header h1 {
@@ -74,6 +89,35 @@ header h3  {
     letter-spacing: 3px;
 }
 
+main h2{
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #272044;
+opacity: 0.3;
+letter-spacing: 3px;
+text-transform: uppercase;
+margin:0;
+}
+
+main h3 {
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+color: #272044;
+margin:0;
+}
+
+main p {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #272044;
+opacity: 0.7;
+}
 footer {
      font-family: "Poppins", serif;
      color: white;
@@ -115,5 +159,12 @@ header h2{
 }
 header h3 {
     font-size: 15px;
+}
+.grid  {
+    grid-template-columns: 1fr;
+    gap:32px;
+}
+section  {
+padding: 30px;
 }
 }
