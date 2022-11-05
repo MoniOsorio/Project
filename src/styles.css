@@ -267,5 +267,16 @@ padding: 30px;
     
 }
 
+section .terciary {
+padding: 10px;
+}
+
+/*
+.instagram-embed iframe{
+    display: block;
+    margin:0;
+    max-width: 300px;
+    
+}*/
 
 }
