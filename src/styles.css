@@ -44,6 +44,9 @@ main {
     display
     
 } */
+.instagram-embed {
+    margin:30px;
+}
 
 .card-header.grid{
     gap:0;
@@ -263,5 +266,6 @@ padding: 30px;
     margin: 5px;
     
 }
+
 
 }
